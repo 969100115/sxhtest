@@ -4,4 +4,7 @@
 <mapper namespace="com.test.mapper.UserBasicMapper">
 
 
+    <select id="selectUserById" resultType="com.test.bean.UserBasic">
+        select * from user_basic where id = #{id}
+    </select>
 </mapper>

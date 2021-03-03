@@ -5,4 +5,6 @@ import com.test.bean.UserBasic;
 
 public interface UserBasicMapper extends BaseMapper<UserBasic> {
 
+    UserBasic selectUserById(Integer id);
+
 }
